@@ -18,7 +18,7 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver: lts-10.4
+resolver: lts-11.13
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -43,7 +43,7 @@ packages:
     git: https://github.com/gbwey/hdbc-odbc.git
     commit: 94f633f31db195d129a2ad9a63e61d5f76ef9685
   extra-dep: true
-    
+
 # - location: ../hdbc-odbc-41b25fcd8aad5c7e36cf780cb77d7e5b77b7062b
 #   extra-dep: true
 # - location: ../hdbc_nextresult
@@ -52,7 +52,7 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
-extra-deps: 
+extra-deps:
 - odbc-0.2.0
 - formatting-6.3.6
 # - HDBC-2.4.0.3
